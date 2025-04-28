@@ -1,0 +1,451 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-image:url('../images/carnival-background.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+	align-content: center;
+	align-items: center;
+}
+
+.scary {
+	align-content: center;
+	align-items: center;
+		  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+	font-family: Chiller;
+	font-size: 80px;
+          color: red;
+			  text-shadow: 
+   0 0 5px red,
+    0 0 10px red, 
+    0 0 15px white,
+    0 0 20px black;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+          padding: .2em;
+          text-decoration: none; 
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+	position: relative;
+	bottom: 60px;
+	    padding: 0 30px;  
+	flex-wrap: nowrap;
+	}
+
+.scary-2 {
+	align-content: center;
+	align-items: center;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4px;
+  margin-top: 8px;
+  width: fit-content;
+  font-family: Chiller;
+  font-size: 40px;
+  color: red;
+  text-shadow: 
+    0 0 5px black,
+    0 0 10px black, 
+    0 0 15px white,
+    0 0 20px red;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+  padding: .2em;
+  position: relative;
+  bottom: 40px;
+}
+
+.home-logo {
+	align-content: center;
+	align-items: center;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.logo {
+		align-content: center;
+	align-items: center;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+height: 60%;
+  width: 60%;
+}
+
+.investigator-text {
+		align-content: center;
+	align-items: center;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+	font-family: "Source Code Pro";
+	font-size: 30px;
+          color: white;
+		  text-shadow: 
+    0 0 5px purple,
+    0 0 10px purple, 
+    0 0 15px red,
+    0 0 20px black;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+          padding: .2em;
+          text-decoration: none; 
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.investigator-text-2 {
+		align-content: center;
+	align-items: center;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	font-family: "Source Code Pro";
+	font-size: 15px;
+          color: white;
+	  text-shadow: 
+    0 0 5px purple,
+    0 0 10px purple, 
+    0 0 15px red,
+    0 0 20px black;
+  transition: text-shadow 0.3s ease, color 0.3s ease;
+          padding: .2em;
+}
+
+.welcome-message {
+	position: relative;
+	bottom: 60px;
+	    padding: 0 30px; 
+}
+
+        nav ul {
+        align-items: center;
+display: flex;
+            flex-direction: row;
+            justify-content:space-evenly;
+            flex-wrap: wrap;
+          list-style:none;
+          padding: 0;
+          margin: 0;
+			size: 10px;
+        }
+
+        nav a:link,
+        nav a:visited {
+            align-items: center;
+          background-color: red;
+          border: 2px solid white;
+          border-radius: .8em;
+          color: black;
+          padding: .2em;
+          display: inline-block;
+          text-decoration: none;  
+        }
+
+.top-nav {
+  background-color: black;
+  padding: 10px 0;
+}
+
+.main-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.main-menu > li {
+  position: relative;
+}
+
+.main-menu a {
+  background-color: red;
+  border: 2px solid white;
+  border-radius: 0.8em;
+  color: black;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.main-menu a:hover {
+  background-color: white;
+  color: red;
+}
+
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 0.5em;
+  list-style: none;
+  padding: 0.5em 0;
+  min-width: 180px;
+  z-index: 1000;
+}
+
+.dropdown li {
+  text-align: left;
+  padding: 0.3em 1em;
+}
+
+.dropdown a {
+  background: none;
+  border: none;
+  padding: 0.3em 0;
+  color: white;
+  display: block;
+}
+
+.dropdown a:hover {
+  color: red;
+  background-color: white;
+}
+
+.main-menu li:hover > .dropdown {
+  display: block;
+}
+
+#border {
+    border: 10px;
+    border-style: double;
+    border-color: red;
+    padding: 2em;
+		  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+	background-color: black;
+}
+
+#border-2 {
+	
+	display: inline-block;
+	padding: 2em; 
+    border-style: double;
+    border-color: red; 
+	background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+	
+	
+}
+
+
+.footer-box {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  gap: 40px; 
+  flex-wrap: wrap; 
+}
+
+.footer-item a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-item a:hover {
+  text-decoration: underline;
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.image-row img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+
+table, th, td {
+  border:1px solid black;
+		  box-shadow: 
+   0 0 5px red,
+    0 0 10px red, 
+    0 0 15px white,
+    0 0 20px black;
+  transition: box-shadow 0.3s ease, color 0.3s ease;
+}
+
+.carnival-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px; 
+  background-color: black;
+  padding: 20px;
+  border: 2px solid #ff0033;
+  border-radius: 10px;
+  color: #fff;
+}
+
+
+.carnival-row-reversed {
+  display: inline-flex;
+	flex-direction: row-reverse;
+  align-items: center;
+  gap: 10px; 
+  background-color: black;
+  padding: 20px;
+  border: 2px solid #ff0033;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.carnival-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carnival-row img {
+width: 200px;	
+  height: 200px;
+  border-radius: 5px;
+}
+
+.carnival-row-reversed img {
+width: 200px;	
+  height: 200px;
+  border-radius: 5px;
+}
+
+.carnival-row p {
+  font-size: 1em;
+  margin: 0;
+}
+
+.investigator-text li {
+	font-size: 18px;
+}
+
+.container-row {
+  align-items: center;
+	align-content: center;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: black;
+}
+
+.container-row-2 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 20px;
+flex-wrap: wrap;
+}
+
+.spooky-box {
+  background-color: black;
+  border: 2px solid red;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 0 10px red;
+	align-items: center;
+}
+
+.spooky-box h3 {
+  margin-top: 0;
+  font-size: 1.3em;
+  color: #ff3333;
+}
+
+.spooky-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.spooky-box p {
+  margin: 5px 0;
+  font-size: 0.95em;
+}
+
+.survey-container {
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+  padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 15px;
+  font-family: 'Creepster', cursive;
+  box-shadow: 0 0 15px red;
+}
+
+
+.survey-container label {
+  display: block;
+  margin: 15px 0 5px;
+}
+
+.survey-container input,
+.survey-container select,
+.survey-container textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+}
+
+.survey-container button {
+  margin-top: 20px;
+  background-color: red;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Chiller', cursive;
+  font-size: 2em;
+  transition: background-color 0.3s ease;
+	
+}
+
+.survey-container button:hover {
+  background-color: darkred;
+}
